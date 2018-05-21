@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.george_pc.todoapp.Dashboard.MainActivity">
+    <item
+        android:id="@+id/Cancel"
+        android:orderInCategory="100"
+        android:title="Cancel"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/done"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_done"
+        android:title="Done"
+        app:showAsAction="always" />
+</menu>
